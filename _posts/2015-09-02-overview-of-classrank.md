@@ -1,10 +1,10 @@
 ---
-layout: default
+layout: blog
 title: ClassRank
 ---
 
-#ClassRank
-#####An Overview
+# ClassRank
+##### An Overview
 
 ClassRank is an application that uses collaborative filtering to help personalize class recommendations. Collaborative filtering is a machine learning algorithm that recognizes users like you. After finding those similar users, it uses a weighted average algorithm. The results of this algorithm are then used to select recommendations. Similar users can be found in a variety of ways, generally the algorithm uses a variant of the distance formula.
 

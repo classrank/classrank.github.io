@@ -1,6 +1,6 @@
-# classrank.github.io
+#classrank.github.io
 
-Holds an informational website about [ClassRank][2].
+Holds an informational website about [ClassRank][1].
 
 Built with [Jekyll][2], with CSS provided by [Skeleton][3].
 
