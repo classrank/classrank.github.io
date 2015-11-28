@@ -1,0 +1,14 @@
+div#courseSchedule {
+    width: 75%;
+    float: left;
+}
+div#sidebar {
+    float: right;
+    width: 25%;
+}
+ul {
+    list-style-type: none;
+}
+div#sidebar > ul > li  ul{
+    display: none;
+}

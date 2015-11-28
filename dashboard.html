@@ -1,7 +1,11 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
     <head>
         <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+        <link rel="stylesheet" href="dashboard.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+        <script src="dashboard.js"></script>
     </head>
 
     <body>
@@ -14,9 +18,36 @@
         </div>
         <div class="visibleTab" id="home">
             <div id="courseSchedule">
-                this is some placeholder shit
+               hello 
             </div>
-            <div id="sideBar">
+            <div id="sidebar">
+                <ul>
+                    <li>
+                        <div class="dropdown">Search for courses</div>
+                        <ul id="courseSearch">
+                            <li id="searchBar">
+                                <form class="pure-form">
+                                    <input id="search" type="search" placeholder="Find Classes">
+                                </form>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <div class="dropdown">Suggested Courses</div>
+                        <ul id="suggestedCourses">
+                            <li class="suggestedCourse">
+                                CS2340
+                            </li>
+                            <li class="suggestedCourse">
+                                CS2110
+                            </li>
+                            <li class="suggestedCourse">
+                                CS1332
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
             </div>
         </div>
         <div class="hiddenTab" id="manageCourses">
