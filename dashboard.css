@@ -1,7 +1,64 @@
+body {
+    background-color: #e8e8e8;
+}
+
+div.pure-menu{
+    background-color: #334c90;
+}
+
+.pure-menu-link {
+    color: white;    
+}
+
+.pure-menu-link:hover {
+    color: black
+}
+
+div.dropdown {
+    background-color: #334c90;
+    color: white;
+    #border: black 1px solid;
+    margin: 0em;
+    padding: 0.3em;
+    -moz-user-select: -moz-none;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: default;
+    #border-radius: 0.4em;
+    #border-bottom: none;
+}
+
+div#sidebar > ul {
+    padding-left: 0;
+    margin-right: 1em;
+}
+div#sidebar > ul > li {
+    margin-top: 0.1em;
+    padding: 0;
+    border: 1px solid black;
+    border-radius: 0.2em;
+    background: white;
+}
+
+#searchBar {
+    padding: 0.3em;
+}
+
+.suggestedCourse {
+    margin: 0em;
+    padding: 0.2em;
+    border-bottom: 1px solid lightgray;
+}
+
+.suggestedCourse:hover {
+    background-color: #eee;
+}
+
 div#courseSchedule {
     width: 75%;
     float: left;
 }
+
 div#sidebar {
     float: right;
     width: 25%;
@@ -11,4 +68,5 @@ ul {
 }
 div#sidebar > ul > li  ul{
     display: none;
+    padding-left: .1em;
 }
