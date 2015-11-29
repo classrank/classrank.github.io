@@ -55,12 +55,14 @@ div#sidebar > ul > li {
 }
 
 div#courseSchedule {
-    width: 75%;
+    margin-top: 1em;
+    margin-right: 2em;
+    margin-left: 20%;
     float: left;
 }
 
 div#sidebar {
-    float: right;
+    float: left;
     width: 25%;
 }
 ul {

@@ -18,7 +18,7 @@
         </div>
         <div class="visibleTab" id="home">
             <div id="courseSchedule">
-               hello 
+                <img src="courseSchedule.PNG"> 
             </div>
             <div id="sidebar">
                 <ul>
@@ -52,10 +52,42 @@
         </div>
         <div class="hiddenTab" id="manageCourses">
             <form class="pure-form-aligned">
+                <div class="pure-control-group group">
+                    <label for="searchclass">Find Class</label>
+                    <input id="searchclass" type="search" placeholder="Find Class">
+                </div>
+                <div class="pure-control-group group">
+                    <label for="grade">Grade</label>
+                    <select id="grade">
+                        <option>A</option>
+                        <option>B</option>
+                        <option>C</option>
+                        <option>D</option>
+                        <option>F</option>
+                    </select>
+                </div>
+                <div class="pure-control-group">
+                    <button type="submit" class="pure-button pure-button-primary">Add Class</button>
+                </div>
             </form>
         </div>
         <div class="hiddenTab" id="submitCourses">
             <form class="pure-form-aligned">
+                <div class="pure-control-group">
+                    <label for="courseNumber">Course Code</label>
+                    <input id="courseNumber" type="text">
+                </div>
+                <div class="pure-control-group">
+                    <label for="professor">Professor</label>
+                    <input id="professor" type="text">
+                </div>
+                <div class="pure-control-group">
+                    <label for="semester">Semester</label>
+                    <input id="semester" type="test">
+                </div>
+                <div class="pure-control-group">
+                    <button type="submit" class="pure-button pure-button-primary">Submit</button>
+                </div>
             </form>
         </div>
     </body>
