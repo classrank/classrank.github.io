@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+        <script src="dashboard.js"></script>
+        <link rel="stylesheet" href="dashboard.css">
+    </head>
+
+    <body>
+        <div class="pure-menu pure-menu-horizontal"> 
+            <ul class="pure-menu-list">
+                <li class="pure-menu-item"><a href="#home" class="pure-menu-link">Home</a></li>
+                <li class="pure-menu-item"><a href="#manageCourses" class="pure-menu-link">Manage Courses</a></li>
+                <li class="pure-menu-item"><a href="#submitCourses" class="pure-menu-link">Submit New Course</a></li>
+            </ul>
+        </div>
+        <div class="visibleTab" id="home">
+            <div id="courseSchedule">
+                <img src="courseSchedule.PNG"> 
+            </div>
+            <div id="sidebar">
+                <ul>
+                    <li>
+                        <div class="dropdown">Search for courses</div>
+                        <ul id="courseSearch">
+                            <li id="searchBar">
+                                <form class="pure-form">
+                                    <input id="search" type="search" placeholder="Find Classes">
+                                </form>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <div class="dropdown">Suggested Courses</div>
+                        <ul id="suggestedCourses">
+                            <li class="suggestedCourse">
+                                CS2340
+                            </li>
+                            <li class="suggestedCourse">
+                                CS2110
+                            </li>
+                            <li class="suggestedCourse">
+                                CS1332
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="hiddenTab" id="manageCourses">
+            <form class="pure-form-aligned">
+                <div class="pure-control-group group">
+                    <label for="searchclass">Find Class</label>
+                    <input id="searchclass" type="search" placeholder="Find Class">
+                </div>
+                <div class="pure-control-group group">
+                    <label for="grade">Grade</label>
+                    <select id="grade">
+                        <option>A</option>
+                        <option>B</option>
+                        <option>C</option>
+                        <option>D</option>
+                        <option>F</option>
+                    </select>
+                </div>
+                <div class="pure-control-group">
+                    <button type="submit" class="pure-button pure-button-primary">Add Class</button>
+                </div>
+            </form>
+        </div>
+        <div class="hiddenTab" id="submitCourses">
+            <form class="pure-form-aligned">
+                <div class="pure-control-group">
+                    <label for="courseNumber">Course Code</label>
+                    <input id="courseNumber" type="text">
+                </div>
+                <div class="pure-control-group">
+                    <label for="professor">Professor</label>
+                    <input id="professor" type="text">
+                </div>
+                <div class="pure-control-group">
+                    <label for="semester">Semester</label>
+                    <input id="semester" type="test">
+                </div>
+                <div class="pure-control-group">
+                    <button type="submit" class="pure-button pure-button-primary">Submit</button>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
