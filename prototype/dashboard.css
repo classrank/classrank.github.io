@@ -72,3 +72,15 @@ div#sidebar > ul > li  ul{
     display: none;
     padding-left: .1em;
 }
+
+.pure-control-group {
+    padding-top: 0.5em;
+}
+
+#submitClassButton {
+    margin-left: 5em;
+}
+
+#classButton {
+    margin-left: 5em;
+}
