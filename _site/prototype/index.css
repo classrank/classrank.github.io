@@ -1,0 +1,41 @@
+.accountBox {
+    position: absolute;
+    top: 40%;
+    left:40%;
+    width: 30em;
+    height: 10em;
+    background-color: white;
+    border: 1px black solid;
+    padding: 1em;
+}
+form {
+    margin: 0.2em;
+    margin-left: 0em;
+}
+
+.register {
+    margin: 0.2em;
+}
+
+input {
+    margin: .2em;
+    margin-left: 0em;
+}
+
+a {
+    margin: 0.2em;
+    margin-left: 0em;
+}
+
+.logo {
+    position: absolute;
+    color: #334c90;
+    font-weight: bold;
+    left: 44.5%;
+    top: 10%;
+    font-size: 72px;
+}
+
+body {
+    background-color: #e8e8e8;
+}
